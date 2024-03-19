@@ -1,0 +1,51 @@
+/* 1. Styling for blue heading */
+.blue-heading {
+    color: blue;
+}
+
+/* 1. Styling for red paragraph */
+.red-paragraph {
+    color: red;
+    font-size: 15px;
+}
+
+/* 3. Styling for image */
+.image-section img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid green;
+}
+
+
+/* Form styling */
+.form-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 10px; /* Gap between form elements */
+}
+
+.form-section label {
+    grid-column: span 2; /* Make labels span both columns */
+}
+
+.form-section input[type="radio"] {
+    margin-right: 5px; /* Add margin to radio buttons */
+}
+
+.form-section input,
+.form-section select {
+    width: calc(100% - 5px); /* Adjust width to accommodate radio button margin */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-section fieldset {
+    grid-column: span 2; /* Make fieldset span both columns */
+    border: none;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
